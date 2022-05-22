@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import init, { greet, printObject, quickSort, Point, quickSortCmp } from '../../wasm/pkg'
+import init, { greet, printObject, quickSort, Point, quickSortCmp } from '../../core/pkg'
 
 defineProps<{ msg: string }>()
 
